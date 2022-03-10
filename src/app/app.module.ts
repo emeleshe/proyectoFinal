@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -34,8 +33,10 @@ import { AppReactnativeComponent } from './components/app-reactnative/app-reactn
     HtmlComponent,
     CssComponent,
     FrontJuniorComponent,
+
     FrontSeniorComponent,
     FrontAdvanceComponent,
+
     FullStackComponent,
     FullStackVueComponent,
     FullStackAngularComponent,

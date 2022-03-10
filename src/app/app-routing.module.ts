@@ -19,6 +19,7 @@ import { DesarrolloBackEndComponent } from './components/desarrollo-back-end/des
 import { AppReactnativeComponent } from './components/app-reactnative/app-reactnative.component';
 
 
+
 const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
@@ -36,8 +37,9 @@ const routes: Routes = [
   {path: 'full-stack-angular', component: FullStackAngularComponent},
   {path: 'full-stack-reactive', component: FullStackReactiveComponent},
   { path: 'desarrollo-back-end', component: DesarrolloBackEndComponent},
-  { path: 'app-reactnative', component: AppReactnativeComponent}
- 
+  { path: 'app-reactnative', component: AppReactnativeComponent},
+  {path: 'Desarrollo-BackEnd', component: DesarrolloBackEndComponent},
+  {path: 'app-reackNative' , component: AppReactnativeComponent}
 
 
   //{ path: '', redirectTo: '/home', pathMatch: 'full'},
