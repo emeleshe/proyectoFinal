@@ -15,6 +15,12 @@ import { CssComponent } from './components/css/css.component';
 import { FrontJuniorComponent } from './components/front-junior/front-junior.component';
 import { FrontSeniorComponent } from './components/front-senior/front-senior.component';
 import { FrontAdvanceComponent } from './components/front-advance/front-advance.component';
+import { FullStackComponent } from './components/full-stack/full-stack.component';
+import { FullStackVueComponent } from './components/full-stack-vue/full-stack-vue.component';
+import { FullStackAngularComponent } from './components/full-stack-angular/full-stack-angular.component';
+import { FullStackReactiveComponent } from './components/full-stack-reactive/full-stack-reactive.component';
+import { DesarrolloBackEndComponent } from './components/desarrollo-back-end/desarrollo-back-end.component';
+import { AppReactnativeComponent } from './components/app-reactnative/app-reactnative.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +35,13 @@ import { FrontAdvanceComponent } from './components/front-advance/front-advance.
     CssComponent,
     FrontJuniorComponent,
     FrontSeniorComponent,
-    FrontAdvanceComponent
+    FrontAdvanceComponent,
+    FullStackComponent,
+    FullStackVueComponent,
+    FullStackAngularComponent,
+    FullStackReactiveComponent,
+    DesarrolloBackEndComponent,
+    AppReactnativeComponent
   ],
   imports: [
     BrowserModule,
