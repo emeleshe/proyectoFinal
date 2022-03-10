@@ -14,6 +14,7 @@ import { HtmlComponent } from './components/html/html.component';
 import { CssComponent } from './components/css/css.component';
 import { FrontJuniorComponent } from './components/front-junior/front-junior.component';
 import { FullStackComponent } from './components/full-stack/full-stack.component';
+import { FullStackVueComponent } from './components/full-stack-vue/full-stack-vue.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FullStackComponent } from './components/full-stack/full-stack.component
     HtmlComponent,
     CssComponent,
     FrontJuniorComponent,
-    FullStackComponent
+    FullStackComponent,
+    FullStackVueComponent
   ],
   imports: [
     BrowserModule,

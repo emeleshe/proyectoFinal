@@ -10,6 +10,7 @@ import { HtmlComponent } from './components/html/html.component';
 import { CssComponent } from './components/css/css.component';
 import { FrontJuniorComponent } from './components/front-junior/front-junior.component';
 import { FullStackComponent } from './components/full-stack/full-stack.component';
+import { FullStackVueComponent } from './components/full-stack-vue/full-stack-vue.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'html', component: HtmlComponent},
   { path: 'css', component: CssComponent},
   { path: 'front-junior', component: FrontJuniorComponent},
-  { path: 'full-stack' , component: FullStackComponent}
+  { path: 'full-stack' , component: FullStackComponent},
+  { path: 'full-stack-vue', component: FullStackComponent}
 
   //{ path: '', redirectTo: '/home', pathMatch: 'full'},
   // { path: '**', component: Page404Component}
