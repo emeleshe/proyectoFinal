@@ -9,7 +9,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { HtmlComponent } from './components/html/html.component';
 import { CssComponent } from './components/css/css.component';
 import { FrontJuniorComponent } from './components/front-junior/front-junior.component';
-
+import { FullStackComponent } from './components/full-stack/full-stack.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent},
@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'contacto', component: ContactoComponent},
   { path: 'html', component: HtmlComponent},
   { path: 'css', component: CssComponent},
-  { path: 'front-junior', component: FrontJuniorComponent}
+  { path: 'front-junior', component: FrontJuniorComponent},
+  { path: 'full-stack' , component: FullStackComponent}
 
   //{ path: '', redirectTo: '/home', pathMatch: 'full'},
   // { path: '**', component: Page404Component}

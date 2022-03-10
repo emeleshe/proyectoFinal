@@ -13,6 +13,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { HtmlComponent } from './components/html/html.component';
 import { CssComponent } from './components/css/css.component';
 import { FrontJuniorComponent } from './components/front-junior/front-junior.component';
+import { FullStackComponent } from './components/full-stack/full-stack.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FrontJuniorComponent } from './components/front-junior/front-junior.com
     ContactoComponent,
     HtmlComponent,
     CssComponent,
-    FrontJuniorComponent
+    FrontJuniorComponent,
+    FullStackComponent
   ],
   imports: [
     BrowserModule,
