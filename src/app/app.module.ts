@@ -13,6 +13,8 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { HtmlComponent } from './components/html/html.component';
 import { CssComponent } from './components/css/css.component';
 import { FrontJuniorComponent } from './components/front-junior/front-junior.component';
+import { FrontSeniorComponent } from './components/front-senior/front-senior.component';
+import { FrontAdvanceComponent } from './components/front-advance/front-advance.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { FrontJuniorComponent } from './components/front-junior/front-junior.com
     ContactoComponent,
     HtmlComponent,
     CssComponent,
-    FrontJuniorComponent
+    FrontJuniorComponent,
+    FrontSeniorComponent,
+    FrontAdvanceComponent
   ],
   imports: [
     BrowserModule,
