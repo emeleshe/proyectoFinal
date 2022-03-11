@@ -23,14 +23,14 @@
   /* Imágenes */
   
   .bg-image-login {
-    background: url('assets/img/Login.png');
+    background: url('assets/img/login.jpg');
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
   }
   
   .bg-image-register {
-    background: url('assets/img/HTML5.png');
+    background: url('assets/img/registro.jpg');
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;

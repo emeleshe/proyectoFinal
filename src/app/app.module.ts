@@ -20,6 +20,13 @@ import { FullStackAngularComponent } from './components/full-stack-angular/full-
 import { FullStackReactiveComponent } from './components/full-stack-reactive/full-stack-reactive.component';
 import { DesarrolloBackEndComponent } from './components/desarrollo-back-end/desarrollo-back-end.component';
 import { AppReactnativeComponent } from './components/app-reactnative/app-reactnative.component';
+import { BootstrapComponent } from './components/bootstrap/bootstrap.component';
+import { MongoDbComponent } from './components/mongo-db/mongo-db.component';
+import { JavaScriptComponent } from './components/java-script/java-script.component';
+import { ExpressComponent } from './components/express/express.component';
+import { NodeJsComponent } from './components/node-js/node-js.component';
+import { AngularComponent } from './components/angular/angular.component';
+import { PagosComponent } from './components/pagos/pagos.component';
 
 @NgModule({
   declarations: [
@@ -33,21 +40,27 @@ import { AppReactnativeComponent } from './components/app-reactnative/app-reactn
     HtmlComponent,
     CssComponent,
     FrontJuniorComponent,
-
     FrontSeniorComponent,
     FrontAdvanceComponent,
-
     FullStackComponent,
     FullStackVueComponent,
     FullStackAngularComponent,
     FullStackReactiveComponent,
     DesarrolloBackEndComponent,
-    AppReactnativeComponent
+    AppReactnativeComponent,
+    BootstrapComponent,
+    MongoDbComponent,
+    JavaScriptComponent,
+    ExpressComponent,
+    NodeJsComponent,
+    AngularComponent,
+    PagosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
