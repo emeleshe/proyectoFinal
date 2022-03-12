@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -23,7 +24,7 @@ import { MongoDbComponent } from './components/mongo-db/mongo-db.component';
 import { JavaScriptComponent } from './components/java-script/java-script.component';
 import { ExpressComponent } from './components/express/express.component';
 import { NodeJsComponent } from './components/node-js/node-js.component';
-import { PagosComponent } from './components/pagos/pagos.component';
+
 
 
 
@@ -53,11 +54,11 @@ const routes: Routes = [
   { path: 'java-script', component: JavaScriptComponent},
   { path: 'mongo-db', component: MongoDbComponent},
   { path: 'node-js', component: NodeJsComponent},
-  { path: 'pagos', component: PagosComponent}
+  
 
 
-  //{ path: '', redirectTo: '/home', pathMatch: 'full'},
-  // { path: '**', component: Page404Component}
+  // { path: '', redirectTo: '/home', pathMatch: 'full'},
+  //{ path: '**', component: Page404Component}
 ];
 
 @NgModule({

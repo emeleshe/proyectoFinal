@@ -26,7 +26,15 @@ import { JavaScriptComponent } from './components/java-script/java-script.compon
 import { ExpressComponent } from './components/express/express.component';
 import { NodeJsComponent } from './components/node-js/node-js.component';
 import { AngularComponent } from './components/angular/angular.component';
-import { PagosComponent } from './components/pagos/pagos.component';
+// import { PagosComponent } from './components/pagos/pagos.component';
+
+
+
+// import {MatButtonModule} from '@angular/material/button'; 
+// import {MatInputModule} from '@angular/material/input'; 
+// import {MatFormFieldModule} from '@angular/material/form-field'; 
+// import {MatCardModule} from '@angular/material/card';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 
 @NgModule({
   declarations: [
@@ -54,12 +62,17 @@ import { PagosComponent } from './components/pagos/pagos.component';
     ExpressComponent,
     NodeJsComponent,
     AngularComponent,
-    PagosComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule
+    CarouselModule,
+    // MatInputModule,
+    // MatFormFieldModule,
+    // MatButtonModule,
+    // MatCardModule,
+    // BrowserAnimationsModule
     
   ],
   providers: [],
